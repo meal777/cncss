@@ -42,7 +42,7 @@
 }
 
 /* Mobile overrides */
-@media (max-width: 568px) {
+@media (max-width: 268px) {
 
   .bpw-layout {
     height: 70vh; 
