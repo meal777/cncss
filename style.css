@@ -3,6 +3,14 @@
   height: 800px;
 }
 
+/_ Styling for buttons and links _/
+.bpw-botinfo-container button,
+.bpw-botinfo-container a {
+font-size: 0.9em; /_ Set the font size to 0.9em _/
+color: #132758; /_ Set the font color to a light gray _/
+text-decoration: none; /_ Remove any text decoration _/
+}
+
 /* Mobile overrides */
 @media (max-width: 768px) {
 
