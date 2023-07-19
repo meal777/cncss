@@ -63,3 +63,14 @@
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: rgba(128, 128, 128, 0.2); /* set to clear grey color */
 }
+/* chatbot.css */
+
+#bp-chat {
+  height: 500px; 
+}
+
+@media (max-width: 768px) {
+  #bp-chat {
+    height: 400px;
+  }
+}
