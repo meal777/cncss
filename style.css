@@ -59,16 +59,6 @@
   border: 1px transparent;
 }
 
-
-/* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
-.bpw-layout {
-  width: 360px !important;
-  height: 60vh;
-  border-radius: 10px;
-  right: 10px;
-  bottom: 5px;
-  border: 1px;
-}
 }
 
 /* Changes the color of the placeholder text in the input message */
