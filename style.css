@@ -34,7 +34,7 @@
 /* Styling for the chat header container */
 .bpw-header-container {
   margin: 10px;
-  background: #132758;
+  background: #ffffff;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -44,7 +44,7 @@
 }
 
 .bpw-header-name{
-  color: #ffffff;
+  color: #132758;
 }
 
 /* Styling for the typing bubble */
