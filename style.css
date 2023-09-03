@@ -24,12 +24,12 @@
 
 
 /* Mobile overrides */
-@media (max-width: 568px) {
+@media (max-width: 468px) {
 
   .bpw-layout {
     height: 70vh; 
     max-height: 800px;
-    bottom: 50px;
+    bottom: 30px;
   }
 /* Styling for the chat header container */
 .bpw-header-container {
