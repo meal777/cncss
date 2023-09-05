@@ -17,23 +17,19 @@
   /* border: 1px solid #3C4858; */
 }
 
-/* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
+/* Default chatbot styles */
 .bpw-layout {
-  width: 360px !important;
-  height: 60vh;
-  border-radius: 10px;
-  right: 10px;
-  bottom: 5px;
-  border: 1px;
+  height: 800px;
 }
-/* Responsive design rules for devices with width less than or equal to 767px */
-@media screen and (max-device-width: 767px) {
+
+
+/* Mobile overrides */
+@media (max-width: 468px) {
+
   .bpw-layout {
-    width: 100% !important;
-    height: 100%;
-    right: 0;
-    bottom: 40;
-    border-radius: 0;
+    height: 70vh; 
+    max-height: 800px;
+    bottom: 40px;
   }
 /* Styling for the chat header container */
 .bpw-header-container {
@@ -62,14 +58,7 @@
   border-radius: 3px;
   border: 1px transparent;
 }
-/* Styling for the buttons in the chat interface */
-.bpw-button,
-.bpw-button-alt {
-  background-color: #dcdcdc;
-  color: #000000;
-  border-radius: 10px;
-  border: none;
-}
+
 }
 
 /* Changes the color of the placeholder text in the input message */
