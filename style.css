@@ -112,7 +112,14 @@ a {
   border-top: none;
 }
 
-
+/* Styling for the buttons in the chat interface */
+.bpw-button,
+.bpw-button-alt {
+  background-color: #dcdcdc;
+  color: #000000;
+  border-radius: 10px;
+  border: none;
+}
 /* Styling for the scrollbar in the chat container */
 .bpw-chat-container::-webkit-scrollbar,
 .bpw-chat-container::-moz-scrollbar {
