@@ -19,7 +19,7 @@
 
 /* Default chatbot styles */
 .bpw-layout {
-  height: 800px;
+  height: 700px;
 }
 
 
@@ -28,7 +28,7 @@
 
   .bpw-layout {
     height: 70vh; 
-    max-height: 800px;
+    max-height: 700px;
     bottom: 50px;
   }
 /* Styling for the chat header container */
