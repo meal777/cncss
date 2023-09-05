@@ -13,7 +13,7 @@
 }
 
 .bpw-floating-button {
-  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
   /* border: 1px solid #3C4858; */
 }
 
@@ -29,7 +29,7 @@
   .bpw-layout {
     height: 70vh; 
     max-height: 800px;
-    bottom: 40px;
+    bottom: 50px;
   }
 /* Styling for the chat header container */
 .bpw-header-container {
