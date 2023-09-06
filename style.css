@@ -7,6 +7,8 @@
 .bpw-floating-button {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
   /* border: 1px solid #3C4858; */
+  /* Sets the z-index to ensure the button is on top of other elements */
+  z-index: 10;
 }
 
 /* Default chatbot styles */
