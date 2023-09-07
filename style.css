@@ -176,7 +176,7 @@ a {
 /* Styling for the floating button icon in the chat interface */
 
 .bpw-send-button{
-  background: #132758;
+  background: #16F0DF;
 }
 
 
@@ -187,7 +187,7 @@ a {
 }
 .bpw-floating-button {    
     /* Sets the z-index to ensure the button is on top of other elements */
-    z-index: 2;
+    z-index: 3;
     /* Sets the width and height of the button */
     width: 42px;
     height: 42px;  
