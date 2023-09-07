@@ -71,7 +71,7 @@ p,
     width: 100% !important;
     height: 100%;
     right: 0;
-    bottom: 30;
+    bottom: 40;
     border-radius: 0;
   }
 }
@@ -149,7 +149,7 @@ a {
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   background: #132758;
-  border: 3px solid #000000;
+  border: 1px solid #000000;
 }
 
 /* Styling for the general scrollbar in the web page */
@@ -174,14 +174,9 @@ a {
 }
 
 /* Styling for the floating button icon in the chat interface */
-.bpw-floating-button i svg path {
-  fill: #6675fa;
-}
-
-
 
 .bpw-send-button{
-  background: #16F0DF;
+  background: #132758;
 }
 
 
@@ -189,14 +184,13 @@ a {
 
 .bpw-widget-btn{
   border-radius: 50%;
-  background:#6675fa;
 }
 .bpw-floating-button {    
     /* Sets the z-index to ensure the button is on top of other elements */
-    z-index: 1;
+    z-index: 2;
     /* Sets the width and height of the button */
-    width: 52px;
-    height: 52px;  
+    width: 42px;
+    height: 42px;  
 }
 
 // .bpw-floating-button > i {
